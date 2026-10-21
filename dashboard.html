@@ -849,7 +849,7 @@ function renderCalendar() {
 
     const items = dayAllocs.map(a => {
       const cls = { Rush: 'cal-item-emergency', Priority: 'cal-item-urgent', Standard: 'cal-item-standard' }[a.priority];
-      return `<div class="cal-item ${cls}">${a.item.split(' ')[0]} — ${a.location.split(' ')[0]}</div>`;
+      return `<div class="cal-item ${cls}">${a.item.split(' ')[0]} · ${a.location.split(' ')[0]}</div>`;
     }).join('');
 
     html += `
