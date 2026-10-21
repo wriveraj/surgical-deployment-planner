@@ -1,0 +1,1 @@
+SELECT l.location_name, c.item_name, c.fixture_family, c.size, rf.flag_reason, rf.quantity_needed, rf.status, rf.flagged_at::DATE AS flagged_date FROM store_ops.restock_flags rf JOIN store_ops.catalog c ON rf.item_id = c.item_id JOIN store_ops.locations l ON rf.location_id = l.location_id WHERE rf.resolved = FALSE ORDER BY c.fixture_family, l.location_name;
