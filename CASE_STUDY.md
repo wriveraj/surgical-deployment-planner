@@ -3,7 +3,7 @@
 > **Synthetic data.** All stores, reset leads, fixtures, and quantities in this project are fabricated for demonstration. Store and reset lead identifiers are coded and correspond to no real retailer, location, or person. No proprietary or employer data is used.
 
 **Tools:** PostgreSQL · Docker · DBeaver · Power BI · HTML/CSS
-**GitHub:** [github.com/wriveraj/surgical-deployment-planner](https://github.com/wriveraj/surgical-deployment-planner)
+**GitHub:** [github.com/wriveraj/store-fixture-deployment-planner](https://github.com/wriveraj/store-fixture-deployment-planner)
 
 ---
 
